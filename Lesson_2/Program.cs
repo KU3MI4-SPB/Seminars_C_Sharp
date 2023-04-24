@@ -59,3 +59,44 @@
 //     int num4 = div - num2;
 //     Console.WriteLine($"Число {num2} не кратно числу {num1}, остаток {div}");
 // }
+
+
+// Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 
+// 7 и 23.
+
+// 14 -> нет 
+// 46 -> нет 
+// 161 -> да
+
+// Console.WriteLine("Введите число");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// if (num1 % 7 == 0 && num1 % 23 == 0)
+// {
+//     Console.WriteLine($"Число {num1} кратно числу 7 и числу 23");
+// }
+// else
+// {
+//     Console.WriteLine($"Число {num1} не кратно числу 7 и числу 23");
+// }
+
+
+// Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
+
+// 5, 25  ->  да
+// -4, 16  ->  да
+// 25, 5  ->  да
+// 8,9  ->  нет
+
+// Console.WriteLine("Введите первое число");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите второе число");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// if (num1 == num2 * num2 || num2 == num1 * num1)
+// {
+//     Console.WriteLine($"Число {num2} является квадратом числа {num1}");
+// }
+// else
+// {
+//     Console.WriteLine($"Число {num2} не является квадратом числа {num1}");
+// }
+
